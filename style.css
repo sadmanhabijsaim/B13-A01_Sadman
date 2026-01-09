@@ -19,7 +19,6 @@
 }
 
 .navber-center{
-    /* flex: 1; */
     text-align: center;
 }
 
@@ -41,6 +40,7 @@
     font-weight: bold;
     cursor: pointer;
     border-color: #30B868;
+    overflow: hidden;
 }
 
 .btn:hover{
@@ -57,6 +57,7 @@
     border-radius: 4px;
     font-weight: bold;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .btn2:hover{
@@ -64,7 +65,7 @@
 }
 
 .banner{
-    background-image: url("./assets/hero-bg.png");
+    background: linear-gradient(rgba(54, 53, 53, 0.304),rgba(2, 2, 2, 0.43)),url('./assets/hero-bg.png');
     background-size: cover;
     background-position: center;
     padding: 175px 500px;
@@ -191,6 +192,84 @@
     padding: 10px;
     max-width: 60px;
     max-height: 60px;
-    background-color: rgb(248, 59, 7); 
+    background-color: #F95555; 
     border-radius: 100%;
+}
+
+/* slt brain */
+
+.slt{
+    display: flex;
+    width: 85%;
+    max-width: 1360px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 120px 120px 120px;
+    gap: 60px;
+    margin: 0 auto;
+    
+}
+
+.slt-image img{
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 12px;
+}
+
+.slt-content{
+    gap: 16px;
+    
+}
+
+.slt-content .tagline{
+    color: #469165;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.slt-content h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-style:bold;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.slt-content p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+    margin-left: 0%;
+    padding: 0px 250px 0px 0px;
+}
+
+.check-list{
+    list-style: none;
+    padding: 0;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    justify-content:space-between;
+}
+
+.check-list li{
+    color: #001931;
+    font-size: 16px;
+    font-style: medium;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.check-list li img{
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    vertical-align: middle;
+
 }
