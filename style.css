@@ -105,8 +105,11 @@
 }
 
 .banner .banner-content h1{
+    display:block;
+    margin: 0 auto;
     font-size: 72px;
     font-weight: 700;
+    max-width: 770px;
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 16px;
@@ -120,3 +123,74 @@
     text-align: center;
 }
 
+
+/* note section */
+
+#note-section{
+    padding: 0 120px;
+    margin: 0 auto;
+}
+
+.note-header h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.note-header p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    color: #627382;
+}
+
+.note-grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 120px;
+}
+
+.note-card{
+    position: relative;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 60px 30px 30px;
+    flex: 1;
+    max-height: 300px;
+    max-width: 322px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.note-card:hover {
+  transform: translateY(-5px);
+  background-color: antiquewhite;
+
+}
+
+.note-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.note-card p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.note-card img{
+    display: flex;
+    margin-bottom: 16px;
+    margin:     auto;
+    padding: 10px;
+    max-width: 60px;
+    max-height: 60px;
+    background-color: rgb(248, 59, 7); 
+    border-radius: 100%;
+}
