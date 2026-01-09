@@ -28,6 +28,11 @@
     color: #333;
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.navber-center a:hover{
+    color: #0e8d43;
 }
 
 .btn{
@@ -134,6 +139,7 @@
 #note-section{
     padding: 0 120px;
     margin: 0 auto;
+    
 }
 
 .note-header h2{
